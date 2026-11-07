@@ -44,7 +44,6 @@ pipeline	{
 																sh	'ls	-l	/tmp/usn-staging'
 												}
 								}
-				}
 				post	{
 								always	{
 												junit	allowEmptyResults:	true,	testResults:	'test-results.xml'
